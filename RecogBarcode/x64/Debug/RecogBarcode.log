@@ -1,0 +1,122 @@
+﻿빌드 시작: 2018-03-23 오전 9:12:22
+     1>2 노드의 "D:\_WOWOW\Prac\RecogBarcode_2_hanbit\RecogBarcode\RecogBarcode\RecogBarcode.vcxproj" 프로젝트(build 대상)입니다.
+       프로젝트 파일에 ToolsVersion="15.0"이(가) 들어 있습니다. 이 도구 집합은 알 수 없거나 누락되었을 수 있습니다. 이 경우 적절한 버전의 MSBuild를 설치하여 이 문제를 해결할 수 있습니다. 그렇지 않으면 빌드가 정책상의 이유로 특정 ToolsVersion이 될 수 있습니다. 프로젝트에 ToolsVersion="4.0"이 들어 있는 것으로 간주합니다. 자세한 내용은 http://go.microsoft.com/fwlink/?LinkId=291333을 참조하십시오.
+     1>PrepareForBuild:
+         "D:\_WOWOW\Prac\RecogBarcode_2_hanbit\RecogBarcode\x64\Debug\" 디렉터리를 만들고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "x64\Debug\RecogBarcode.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\RecogBarcode.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\RecogBarcode.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt ArithmeticDlg.cpp BinarizationDlg.cpp BrightnessDlg.cpp ChildFrm.cpp ColorCombineDlg.cpp ContrastDlg.cpp CropDlg.cpp Decode.cpp Dib.cpp DibBmp.cpp DibColor.cpp DibEnhancement.cpp DibFilter.cpp DibGeometry.cpp DibSegment.cpp FileNewDlg.cpp GammaCorrectionDlg.cpp GaussianDlg.cpp HarrisDlg.cpp HistogramDlg.cpp MainFrm.cpp RecogBarcode.cpp RecogBarcodeDoc.cpp RecogBarcodeView.cpp ResizeDlg.cpp RGBBYTE.cpp RotateDlg.cpp
+         RotateDlg.cpp
+         RGBBYTE.cpp
+         ResizeDlg.cpp
+         RecogBarcodeView.cpp
+         RecogBarcodeDoc.cpp
+         RecogBarcode.cpp
+         MainFrm.cpp
+         HistogramDlg.cpp
+         HarrisDlg.cpp
+         GaussianDlg.cpp
+         GammaCorrectionDlg.cpp
+         FileNewDlg.cpp
+         DibSegment.cpp
+         DibGeometry.cpp
+         DibFilter.cpp
+         DibEnhancement.cpp
+         DibColor.cpp
+         DibBmp.cpp
+         Dib.cpp
+     1>Dib.cpp(112): warning C4334: '<<' : 32비트 시프트의 결과가 암시적으로 64비트로 변환됩니다. 64비트 시프트를 사용하시겠습니까?
+     1>Dib.cpp(701): warning C4334: '<<' : 32비트 시프트의 결과가 암시적으로 64비트로 변환됩니다. 64비트 시프트를 사용하시겠습니까?
+         Decode.cpp
+         Generating Code...
+         Compiling...
+         CropDlg.cpp
+         ContrastDlg.cpp
+         ColorCombineDlg.cpp
+         ChildFrm.cpp
+         BrightnessDlg.cpp
+         BinarizationDlg.cpp
+         ArithmeticDlg.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0412" /Ix64\Debug\ /nologo /fo"x64\Debug\RecogBarcode.res" RecogBarcode.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\RecogBarcode.exe.embed.manifest.res" x64\Debug\RecogBarcode_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\_WOWOW\Prac\RecogBarcode_2_hanbit\RecogBarcode\x64\Debug\RecogBarcode.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"x64\Debug\RecogBarcode.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\_WOWOW\Prac\RecogBarcode_2_hanbit\RecogBarcode\x64\Debug\RecogBarcode.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\_WOWOW\Prac\RecogBarcode_2_hanbit\RecogBarcode\x64\Debug\RecogBarcode.lib" /MACHINE:X64 x64\Debug\RecogBarcode.res
+         x64\Debug\RecogBarcode.exe.embed.manifest.res
+         x64\Debug\ArithmeticDlg.obj
+         x64\Debug\BinarizationDlg.obj
+         x64\Debug\BrightnessDlg.obj
+         x64\Debug\ChildFrm.obj
+         x64\Debug\ColorCombineDlg.obj
+         x64\Debug\ContrastDlg.obj
+         x64\Debug\CropDlg.obj
+         x64\Debug\Decode.obj
+         x64\Debug\Dib.obj
+         x64\Debug\DibBmp.obj
+         x64\Debug\DibColor.obj
+         x64\Debug\DibEnhancement.obj
+         x64\Debug\DibFilter.obj
+         x64\Debug\DibGeometry.obj
+         x64\Debug\DibSegment.obj
+         x64\Debug\FileNewDlg.obj
+         x64\Debug\GammaCorrectionDlg.obj
+         x64\Debug\GaussianDlg.obj
+         x64\Debug\HarrisDlg.obj
+         x64\Debug\HistogramDlg.obj
+         x64\Debug\MainFrm.obj
+         x64\Debug\RecogBarcode.obj
+         x64\Debug\RecogBarcodeDoc.obj
+         x64\Debug\RecogBarcodeView.obj
+         x64\Debug\ResizeDlg.obj
+         x64\Debug\RGBBYTE.obj
+         x64\Debug\RotateDlg.obj
+         x64\Debug\stdafx.obj
+         RecogBarcode.vcxproj -> D:\_WOWOW\Prac\RecogBarcode_2_hanbit\RecogBarcode\x64\Debug\RecogBarcode.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\RecogBarcode.exe.embed.manifest" /manifest x64\Debug\RecogBarcode.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\RecogBarcode.exe.embed.manifest.res" x64\Debug\RecogBarcode_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\_WOWOW\Prac\RecogBarcode_2_hanbit\RecogBarcode\x64\Debug\RecogBarcode.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"x64\Debug\RecogBarcode.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\_WOWOW\Prac\RecogBarcode_2_hanbit\RecogBarcode\x64\Debug\RecogBarcode.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\_WOWOW\Prac\RecogBarcode_2_hanbit\RecogBarcode\x64\Debug\RecogBarcode.lib" /MACHINE:X64 x64\Debug\RecogBarcode.res
+         x64\Debug\RecogBarcode.exe.embed.manifest.res
+         x64\Debug\ArithmeticDlg.obj
+         x64\Debug\BinarizationDlg.obj
+         x64\Debug\BrightnessDlg.obj
+         x64\Debug\ChildFrm.obj
+         x64\Debug\ColorCombineDlg.obj
+         x64\Debug\ContrastDlg.obj
+         x64\Debug\CropDlg.obj
+         x64\Debug\Decode.obj
+         x64\Debug\Dib.obj
+         x64\Debug\DibBmp.obj
+         x64\Debug\DibColor.obj
+         x64\Debug\DibEnhancement.obj
+         x64\Debug\DibFilter.obj
+         x64\Debug\DibGeometry.obj
+         x64\Debug\DibSegment.obj
+         x64\Debug\FileNewDlg.obj
+         x64\Debug\GammaCorrectionDlg.obj
+         x64\Debug\GaussianDlg.obj
+         x64\Debug\HarrisDlg.obj
+         x64\Debug\HistogramDlg.obj
+         x64\Debug\MainFrm.obj
+         x64\Debug\RecogBarcode.obj
+         x64\Debug\RecogBarcodeDoc.obj
+         x64\Debug\RecogBarcodeView.obj
+         x64\Debug\ResizeDlg.obj
+         x64\Debug\RGBBYTE.obj
+         x64\Debug\RotateDlg.obj
+         x64\Debug\stdafx.obj
+         RecogBarcode.vcxproj -> D:\_WOWOW\Prac\RecogBarcode_2_hanbit\RecogBarcode\x64\Debug\RecogBarcode.exe
+       FinalizeBuildStatus:
+         "x64\Debug\RecogBarcode.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "x64\Debug\RecogBarcode.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\_WOWOW\Prac\RecogBarcode_2_hanbit\RecogBarcode\RecogBarcode\RecogBarcode.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:06.83
